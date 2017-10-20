@@ -1,6 +1,11 @@
 package clases;
 
 public class BonusInmunidad extends Bonus {
+	
+	public BonusInmunidad(Tamanio tamanio, Posicion posicion) {
+		super(tamanio, posicion);
+		// TODO Auto-generated constructor stub
+	}
 	private int recargaDeInmunidad=40;;
 
 	public int getRecargaDeInmunidad() {
@@ -53,6 +58,11 @@ public class BonusInmunidad extends Bonus {
 		
 	}
 
+	
+	
+	
+	
+	
 	@Override
 	public void chocarContraBonusInmunidad(BonusInmunidad bonus) {
 		// TODO Auto-generated method stub

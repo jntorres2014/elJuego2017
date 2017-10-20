@@ -2,6 +2,10 @@ package clases;
 
 public class Bomba extends Movible{
 
+	public Bomba(Tamanio tamanio, Posicion posicion) {
+		super(tamanio, posicion);
+		// TODO Auto-generated constructor stub
+	}
 	private int nivelDaño=20;
 	
 	@Override
